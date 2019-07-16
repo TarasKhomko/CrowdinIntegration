@@ -21,6 +21,6 @@ Copyright (C) 2014
   <string name="confirm_delete">你确定要删除这条消息吗？</string>
   <string name="search_in_messages">Search in messages</string>
   <string name="compose_messages">Compose Message</string>
-  <string name="no_data">No date provided</string>
+  <string name="no_data">没有提供日期</string>
   <string name="quick_start">快速开始</string>
 </resources>
