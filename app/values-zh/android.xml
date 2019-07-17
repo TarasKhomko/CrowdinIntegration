@@ -6,7 +6,6 @@ Copyright (C) 2014
 -->
 <resources>
   <string name="welcome">欢迎！</string>
-  <string name="save_as">另存为...</string>
   <string name="view">视图</string>
   <string name="about">关于...</string>
   <string name="about_me">关于我</string>
@@ -16,7 +15,6 @@ Copyright (C) 2014
   <string name="change_password">更改密码</string>
   <string name="password_recover">Password recoverкк</string>
   <string name="password_reset_success">您的密码重置成功！</string>
-  <string name="success">Success</string>
   <string name="read_message">Read message</string>
   <string name="confirm_delete">你确定要删除这条消息吗？</string>
   <string name="search_in_messages">Search in messages</string>
