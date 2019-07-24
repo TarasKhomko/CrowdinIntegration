@@ -1,0 +1,32 @@
+{
+  "var1": [
+    {
+      "name": {
+        "en": "name",
+        "nl": "name"
+      },
+      "234": {
+        "wer_temperature.234": {
+          "title": {
+            "en": "title",
+            "nl": "title"
+          },
+          "wer": false
+        },
+        "werwer": {
+          "title": {
+            "en": "body",
+            "nl": "body"
+          },
+          "wer": false
+        },
+        "werwerwer": {
+          "title": {
+            "en": "first",
+            "nl": "first"
+          }
+        }
+      }
+    }
+  ]
+}
