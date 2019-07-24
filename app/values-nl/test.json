@@ -3,7 +3,7 @@
     {
       "name": {
         "en": "name",
-        "nl": "name"
+        "nl": "назва"
       },
       "234": {
         "wer_temperature.234": {
@@ -16,14 +16,14 @@
         "werwer": {
           "title": {
             "en": "body",
-            "nl": "body"
+            "nl": "тіло"
           },
           "wer": false
         },
         "werwerwer": {
           "title": {
             "en": "first",
-            "nl": "first"
+            "nl": "перший"
           }
         }
       }
