@@ -1,28 +1,28 @@
 ---
-hel-lo_t-ext: ""
-show&_&footer:
+hel-lo_t-ext: "Hello 🔥 there ⛄!"
+show&_&footer: false
 fr<$u>it:
   - 
-    name:
-    cost:
-    color:
+    name: apple
+    cost: '$1'
+    color: red
   - 
-    $name:
-    cost:
-    0:
+    $name: banana
+    cost: '$2'
+    0: ': yellow'
   - 
-    name:
-    cost:
-    color:
+    name: orange
+    cost: '$1.50'
+    color: '&ora$nge'
 quotes:
-  - ''
-  - ""
-  - ''
-  - ""
+  - 'Something1'
+  - "Nothing1"
+  - 'Anything1'
+  - "Thing1"
 object:
-  name: ''
-  job: ''
-  skill: ''
+  name: 'John Dou1'
+  job: 'Developer1'
+  skill: 'Elite1'
 object_two: { }
 ---
 
@@ -30,23 +30,25 @@ object_two: { }
 <html lang="nl">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>About</title>
   </head>
   <body>
-    <h1></h1>
-    <p></p>
+    <h1>My First Heading 🔥</h1>
+    <p>My first paragraph ⛄️</p>
 
-    <h1></h1>
-    <p></p>
-    <p> </p>
+    <h1>About page</h1>
+    <p>{{ page.hello_text }}</p>
+    <p>Traditionally, a complete set of characters for one typeface at
+        one particular type size. Often used more loosely as a synonym for
+        "typeface".</p>
     <ul>
-      
-        <li></li>
-      
+      {% for item in page.fruit %}
+        <li>{{ item.name }}, cost: {{ item.cost }}, color: {{ item.color }}</li>
+      {% endfor %}
     </ul>
 
-    
-      <footer></footer>
-    
+    {% if page.show_footer %}
+      <footer>I am a footer</footer>
+    {% endif %}
   </body>
 </html>
