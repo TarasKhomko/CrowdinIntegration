@@ -2,36 +2,36 @@
   "var1": [
     {
       "name": {
-        "en": "",
+        "en": "name en",
         "nl": "",
-        "de": "",
-        "fr": ""
+        "de": "name de",
+        "fr": "name fr"
       },
       "234": {
         "wer_temperature.234": {
           "title": {
-            "en": "",
+            "en": "title en",
             "nl": "title-nl",
-            "de": "",
-            "fr": ""
+            "de": "title de",
+            "fr": "title fr"
           },
           "wer": false
         },
         "werwer": {
           "title": {
-            "en": "",
+            "en": "body en",
             "nl": "body-nl",
-            "de": "",
-            "fr": ""
+            "de": "body de",
+            "fr": "body fr"
           },
           "wer": false
         },
         "werwerwer": {
           "title": {
-            "en": "",
+            "en": "first en",
             "nl": "first-nl",
-            "de": "",
-            "fr": ""
+            "de": "first de",
+            "fr": "first fr"
           }
         }
       }
