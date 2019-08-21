@@ -4,14 +4,14 @@
       "name": {
         "en": "name",
         "nl": "",
-        "uk": ""
+        "uk": "імя"
       },
       "234": {
         "wer_temperature.234": {
           "title": {
             "en": "title",
             "nl": "title-nl",
-            "uk": ""
+            "uk": "назва"
           },
           "wer": false
         },
@@ -19,7 +19,7 @@
           "title": {
             "en": "body",
             "nl": "body-nl",
-            "uk": ""
+            "uk": "тіло"
           },
           "wer": false
         },
