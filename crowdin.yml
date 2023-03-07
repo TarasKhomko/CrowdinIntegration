@@ -1,13 +1,7 @@
----
 files:
-- source: "/app/values/test.resw"
-  dest: "/app/values/test.resw"
-  # first_line_contains_header: false
-  # scheme: identifier,source_phrase,nl,de,en,fr
-  # multilingual_spreadsheet : true
-  translation: "/app/%file_name%.%two_letters_code%.json"
-  # translation_replace: 
-  #   ".en": ""
-  #   ".fr": ""
-  #   ".de": ""
-  #   ".nl": ""
+  - source: /app/values/*.xml
+    translation: /app/%file_name%.%two_letters_code%.xml
+    translate_content: 0
+    translate_attributes: 0
+    content_segmentation: 0
+    dest: /app/values/test.resw
