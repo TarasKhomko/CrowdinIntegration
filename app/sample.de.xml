@@ -1,5 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <string name="str_01">First segment string. Second segment string</string>
-  <string name="str_02">simple string</string>
-</resources>
+<resources></resources>
