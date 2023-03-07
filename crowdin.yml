@@ -4,4 +4,3 @@ files:
     translate_content: 0
     translate_attributes: 0
     content_segmentation: 0
-    dest: /app/values/test.xml
